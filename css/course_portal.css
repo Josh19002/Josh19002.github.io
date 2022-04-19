@@ -1,3 +1,41 @@
 body {
   font-family: "Roboto", sans-serif;
+  display:block;
+  line-height: 2.55em;
+}
+.modified_date{
+  display: inline;
+}
+#profile_img{
+  height: 15em;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 5px;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+footer{
+  background-color: #2f8ac6;
+  color:white;
+  padding:2px 10px 20px 10px;
+  text-align:center;
+  border-radius: 20px;
+  
+}
+footer a{
+ color:white;
+}
+.header{
+  background-color: #2f8ac6;
+  color:white;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+}
+.main_content{
+  padding: 0em 2em 1em 3em;
+}
+.main hr{
+  max-width: 90;
 }
