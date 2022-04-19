@@ -1,15 +1,15 @@
 body {
   font-family: "Roboto", sans-serif;
-  display:block;
+  display: block;
   line-height: 2.57em;
 }
-.modified_date{
+.modified_date {
   display: inline;
 }
-.copywrite_year{
+.copywrite_year {
   display: inline;
 }
-#profile_img{
+#profile_img {
   height: 15em;
   float: right;
   margin-right: 20px;
@@ -17,25 +17,25 @@ body {
   margin-left: 5px;
   box-shadow: 5px 5px 15px 5px #000000;
 }
-footer{
+footer {
   background-color: #155f91;
-  color:white;
+  color: white;
   padding: 20px 10px 20px 10px;
-  text-align:center;
+  text-align: center;
   border-radius: 20px;
-  
+  font-size: 1.25em;
 }
-footer a{
- color:white;
+footer a {
+  color: white;
 }
-header{
+header {
   background-color: #155f91;
-  color:white;
+  color: white;
   margin-top: 0%;
   margin-bottom: 0%;
   padding: 0.5em 1em;
   border-radius: 20px;
 }
-.main_content{
+.main_content {
   padding: 0em 2em 1em 3em;
 }
