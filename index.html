@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <title>Joshua Herman</title>
+    <title>Joshua Herman | WDD 230 | Course Portal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
+    <meta name="description" content="Web Portal for pages relating to WDD 230 for Joshua Herman">
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,8 +14,10 @@
   </head>
   <body>
     <main>
+      <header>
       <img id="profile_img" src="images/course_portal/profile_photo.jpg" alt="Image of Site Creator" />
-      <h1 class="header">Joshua M. Herman</h1>
+      <h1>Joshua M. Herman</h1>
+      </header>
       <div class="main_content">
         <h2>WDD 230: Assignment Portal</h2>
         <hr />
@@ -33,7 +36,8 @@
       </div>
     </main>
     <footer>
-      <p>&copy; 2022 | Joshua M. Herman | West Jordan, UT | <a href="https://www.byui.edu">BYUI Online</a></p>
+      <p class="copywrite_year">&copy;</p> <p id="current_year" class="copywrite_year"></p> <p class="copywrite_year">| Joshua M. Herman | West Jordan, UT | <a href="https://www.byui.edu">BYUI Online</a></p>
+      <br>
       <p class="modified_date">Last Modified Date:</p>
       <p class="modified_date" id="last_mod"></p>
     </footer>

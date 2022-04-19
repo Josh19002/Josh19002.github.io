@@ -1,9 +1,12 @@
 body {
   font-family: "Roboto", sans-serif;
   display:block;
-  line-height: 2.55em;
+  line-height: 2.57em;
 }
 .modified_date{
+  display: inline;
+}
+.copywrite_year{
   display: inline;
 }
 #profile_img{
@@ -25,7 +28,7 @@ footer{
 footer a{
  color:white;
 }
-.header{
+header{
   background-color: #2f8ac6;
   color:white;
   margin-top: 0%;
