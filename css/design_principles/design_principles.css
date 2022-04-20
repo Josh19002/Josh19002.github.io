@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.25em;
+  display: grid;
+}
+.modified_date {
+  display: inline;
+}
+.copywrite_year {
+  display: inline;
+}
+footer {
+  background-color: #155f91;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 0.5em 0.32em;
+}
+footer a {
+  color: white;
+}
+header {
+  background-color: #155f91;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+main {
+  text-align: center;
+  margin:0em 1.5em;
+}
+main h2 {
+  background-color: #155f91;
+  color: white;
+  border-radius: 20px;
+  padding: .5em .5em;
+}
+img{
+    box-shadow: 5px 5px 10px 5px #000000;
+    max-width: 100%;
+}
