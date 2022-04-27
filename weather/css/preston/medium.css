@@ -1,0 +1,10 @@
+@media (min-width: 43.5rem) {
+    main{
+        margin:1rem auto;
+        width: 70%;
+        max-width: 40rem;
+    }
+    main fieldset{
+        padding: 0rem auto;
+    }
+}

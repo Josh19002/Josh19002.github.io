@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Preston ID Weather Page" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet" />
+    <link href="/weather/css/all-pages.css" rel="stylesheet">
+    <link href="/weather/css/preston/preston.css" rel="stylesheet">
+    <link href="/weather/css/preston/medium.css" rel="stylesheet">
+    <link href="/weather/css/preston/large.css" rel="stylesheet">
+    <script defer src="/weather/javascript/all-pages.js"></script>
+    <title>WeatherEvents | Preston ID | Joshua Herman</title>
+    <!--Begin Favicons Section For All Platforms-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/weather/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/weather/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/weather/images/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="/weather/images/favicons/site.webmanifest" />
+    <link rel="mask-icon" href="/weather/images/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="/weather/images/favicons/favicon.ico" />
+    <meta name="apple-mobile-web-app-title" content="WeatherEvents" />
+    <meta name="application-name" content="WeatherEvents" />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="msapplication-config" content="/weather/images/favicons/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+    <!--End Favicons Section For All Platforms-->
+  </head>
+  <body>
+    <header>
+      <div id="site-logo">
+        <img src="/weather/images/site-logo.png" alt="Site Logo" />
+      </div>
+      <div id="site-name">
+          <h1>WeatherEvents</h1>
+          <p>Providing you with the latest on local weather!</p>
+      </div>
+      <hr id="nav-seperation">
+      <div class="navbar">
+        <ul>
+            <li><a href="#" onclick="togglemenu()">Menu
+                <large>&#9776;</large></a></li>
+            <li><a href="/weather/index.html">Home</a></li>
+            <li><a href="/weather/preston.html">Preston</a></li>
+            <li><a href="/weather/soda-springs.html">Soda Springs</a></li>
+            <li><a href="/weather/fish-haven.html">Fish Haven</a></li>
+            <li><a href="/weather/storm-center.html">Storm Center</a></li>
+            <li><a href="/weather/gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+        <fieldset id="temp1"><p>Hero w/ Weather Sumary</p></fieldset>
+        <fieldset id="temp2"><p>5 Day Forecast</p></fieldset>
+        <fieldset id="temp3"><p>Article</p></fieldset>
+        <fieldset id="temp4"><p>Contact Information</p></fieldset>
+    </main>
+    <footer>
+        <p class="copywrite_year">&copy;</p>
+        <p id="current_year" class="copywrite_year"></p>
+        <p class="copywrite_year">| Joshua M. Herman | West Jordan, UT | <a href="https://www.byui.edu/online/">BYUI Online</a></p>
+        <br />
+        <p class="current_date">Current Date:</p>
+        <p class="current_date" id="cur_date"></p>
+    </footer>
+  </body>
+</html>

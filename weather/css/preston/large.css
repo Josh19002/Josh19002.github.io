@@ -1,0 +1,7 @@
+@media (min-width: 79.5rem) {
+    main{
+        max-width: 100%;
+        width:90%;
+        margin:1rem auto;
+    }
+}
