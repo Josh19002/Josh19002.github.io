@@ -76,8 +76,8 @@ h4 {
     background-color: #4A4A4A;
 }
 #nav-seperation{
-    color: black;
-    border-color: black;
+    background-color: #000000;
+    border-color: #000000;
     grid-column: 1/3;
     width: 99%;
 }
