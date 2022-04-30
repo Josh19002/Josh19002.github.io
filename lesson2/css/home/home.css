@@ -9,6 +9,6 @@ main img{
     max-width: 20rem;
     width:75%
 }
-#site-info, #site-picture{
+#site-info, #site-picture, #site-purpose{
     margin-top:6rem;
 }

@@ -23,4 +23,7 @@
     #home-header{
         grid-column: 1/3;
     }
+    #site-picture{
+        grid-column: 1/3;
+    }
 }
