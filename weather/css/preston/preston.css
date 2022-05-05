@@ -1,3 +1,29 @@
-main fieldset{
-    margin: 1rem 0rem;
+main{
+    text-align: center;
+    background-color: #C4F0FF;
+}
+#hero-with-widget img{
+    max-width: 100%;
+    margin-bottom: -4px;
+}
+#city-name{
+    text-align: center;
+    background-color: #75CBE8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:.25rem;
+}
+#contact-information{
+    background-color: #75CBE8;
+    padding: 1rem;
+}
+main h2{
+    border-top: 4px solid #000000;
+    border-bottom: 4px solid #000000 ;
+    max-width: fit-content;
+    padding: .5rem;
+    margin: 2rem auto;
+}
+#library-img-1{
+    display: none;
 }

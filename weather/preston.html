@@ -8,11 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet" />
-    <link href="/weather/css/all-pages.css" rel="stylesheet">
-    <link href="/weather/css/preston/preston.css" rel="stylesheet">
-    <link href="/weather/css/preston/medium.css" rel="stylesheet">
-    <link href="/weather/css/preston/large.css" rel="stylesheet">
+    <link href="/weather/css/all-pages.css" rel="stylesheet" />
+    <link href="/weather/css/preston/preston.css" rel="stylesheet" />
+    <link href="/weather/css/preston/medium.css" rel="stylesheet" />
+    <link href="/weather/css/preston/large.css" rel="stylesheet" />
     <script defer src="/weather/javascript/all-pages.js"></script>
+    <script defer src="/weather/javascript/preston/preston.js"></script>
     <title>WeatherEvents | Preston ID | Joshua Herman</title>
     <!--Begin Favicons Section For All Platforms-->
     <link rel="apple-touch-icon" sizes="180x180" href="/weather/images/favicons/apple-touch-icon.png" />
@@ -34,35 +35,71 @@
         <img src="/weather/images/site-logo.png" alt="Site Logo" />
       </div>
       <div id="site-name">
-          <h1>WeatherEvents</h1>
-          <p>Providing you with the latest on local weather!</p>
+        <h1>WeatherEvents</h1>
+        <p>Providing you with the latest on local weather!</p>
       </div>
-      <hr id="nav-seperation">
+      <hr id="nav-seperation" />
       <div class="navbar">
         <ul>
-            <li id="menu-icon"><a href="#" onclick="togglemenu()">Menu &#9776;</a></li>
-            <li><a href="/weather/index.html">Home</a></li>
-            <li><a href="/weather/preston.html">Preston</a></li>
-            <li><a href="/weather/soda-springs.html">Soda Springs</a></li>
-            <li><a href="/weather/fish-haven.html">Fish Haven</a></li>
-            <li><a href="/weather/storm-center.html">Storm Center</a></li>
-            <li><a href="/weather/gallery.html">Gallery</a></li>
+          <li id="menu-icon"><a href="#" onclick="togglemenu()">Menu &#9776;</a></li>
+          <li><a href="/weather/index.html">Home</a></li>
+          <li><a href="/weather/preston.html">Preston</a></li>
+          <li><a href="/weather/soda-springs.html">Soda Springs</a></li>
+          <li><a href="/weather/fish-haven.html">Fish Haven</a></li>
+          <li><a href="/weather/storm-center.html">Storm Center</a></li>
+          <li><a href="/weather/gallery.html">Gallery</a></li>
         </ul>
       </div>
     </header>
     <main>
-        <fieldset id="temp1"><p>Hero w/ Weather Sumary</p></fieldset>
-        <fieldset id="temp2"><p>5 Day Forecast</p></fieldset>
-        <fieldset id="temp3"><p>Article</p></fieldset>
-        <fieldset id="temp4"><p>Contact Information</p></fieldset>
+      <h1 id="city-name">Preston, ID</h1>
+      <section id="hero-with-widget">
+        <img alt="Preston ID Overlook" src="/weather/images/preston/preston_overlook.jpg" />
+        <div id="hero-widget">
+          <a class="weatherwidget-io" href="https://forecast7.com/en/42d10n111d88/preston/?unit=us" data-label_1="PRESTON" data-label_2="ID" data-mode="Current" data-theme="pure" data-basecolor="#75CBE8" data-textcolor="#000000" data-highcolor="#000000" data-lowcolor="#000000" data-suncolor="#000000" data-mooncolor="#000000" data-cloudcolor="#000000" data-cloudfill="#75CBE8" data-raincolor="#000000" data-snowcolor="#000000">PRESTON ID</a>
+        </div>
+      </section>
+      <section id="five-day-forecast">
+        <h2>5 Day Forecast</h2>
+        <div id="forecast-widget">
+          <a class="weatherwidget-io" href="https://forecast7.com/en/42d10n111d88/preston/?unit=us" data-label_1="PRESTON" data-label_2="ID" data-mode="Forecast" data-theme="pure" data-basecolor="#75CBE8" data-textcolor="#000000" data-highcolor="#000000" data-lowcolor="#000000" data-suncolor="#000000" data-mooncolor="#000000" data-cloudcolor="#000000" data-cloudfill="#75CBE8" data-raincolor="#000000" data-snowcolor="#000000">PRESTON ID</a>
+        </div>
+      </section>
+      <section id="upcoming-events">
+        <h2>Weekly Events</h2>
+        <img id="library-img-1" alt="Preston Library" src="/weather/images/preston/preston_library.JPG" />
+        <h3>Story Time at the Library, City Library Saturdays at 10:30 AM</h3>
+        <p>Bring your kids and enjoy a story at the local library. Two different groups are held, one recomended for ages 10 and younger, and the other for 11 and older.</p>
+        <h3>Library Book Club, City Library Fridays at 7:30 PM</h3>
+        <p>Recomended for those 16 and older, this group meets weekly at the library for discussing and reading a book!</p>
+        <img id="library-img-2" alt="Preston Library" src="/weather/images/preston/preston_library.JPG" />
+        <h2>Major Events</h2>
+        <h3>5/30/22 Memorial Day Event, City Park &#9733;</h3>
+        <p>View an array a flags set up in remembrance of Memorial Day. Honor those who have served our country.</p>
+        <h3>7/4/22 4th of July Picnic, City Park at 6 PM &#9733;</h3>
+        <p>Enjoy spending time with your family, while spending time with your neighbors! Bring your own food and watch the fireworks set up for the evening.</p>
+        <h3>10/31/22 Halloween Trunk or Treat, City Park Parking Lot at 7 PM &#9733;</h3>
+        <p>Halloween is here and what better way to celebrate it than at the city park! Decorate your car and hand out candy, at this once a year event. Costume contest to be held, ages 18 and younger.</p>
+      </section>
+      <section id="contact-information">
+        <div id="preston-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853441635!2d-111.91534444704016!3d42.09974162638564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1651711838295!5m2!1sen!2sus" width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="contact">
+            <h3>Contact:</h3>
+            <p>Phone: <a href="tel:555-432-6789">123-456-7890</a></p>
+            <p>Email: <a href="mailto:fakeemail@fakeemail.fake">fakeemail@fakeemail.fake</a></p>
+            <p>Address: 199 Somewhere St., Preston ID, 83263</p>
+        </div>
+      </section>
     </main>
     <footer>
-        <p class="copywrite_year">&copy;</p>
-        <p id="current_year" class="copywrite_year"></p>
-        <p class="copywrite_year">| Joshua M. Herman | West Jordan, UT | <a href="https://www.byui.edu/online/">BYUI Online</a></p>
-        <br />
-        <p class="current_date">Current Date:</p>
-        <p class="current_date" id="cur_date"></p>
+      <p class="copywrite_year">&copy;</p>
+      <p id="current_year" class="copywrite_year"></p>
+      <p class="copywrite_year">| Joshua M. Herman | West Jordan, UT | <a href="https://www.byui.edu/online/">BYUI Online</a></p>
+      <br />
+      <p class="current_date">Current Date:</p>
+      <p class="current_date" id="cur_date"></p>
     </footer>
   </body>
 </html>

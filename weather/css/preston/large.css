@@ -1,7 +1,6 @@
 @media (min-width: 79.5rem) {
-    main{
+    #five-day-forecast, #upcoming-events{
         max-width: 100%;
         width:90%;
-        margin:1rem auto;
     }
 }
