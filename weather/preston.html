@@ -54,9 +54,16 @@
     <main>
       <h1 id="city-name">Preston, ID</h1>
       <div id="hero-with-widget">
-        <img alt="Preston ID Overlook" src="/weather/images/preston/preston_overlook.jpg" />
+        <picture>
+          <source media="(min-width: 51.3rem)" srcset="/weather/images/preston/preston_overlook_medium.webp">
+          <source media="(min-width: 79.5rem)" srcset="/weather/images/preston/preston_overlook_large.webp">
+          <img class="hero-img" alt="Preston ID Overlook" src="/weather/images/preston/preston_overlook_small.webp"  />
+        </picture>
         <div id="hero-widget">
           <a class="weatherwidget-io" href="https://forecast7.com/en/42d10n111d88/preston/?unit=us" data-label_1="PRESTON" data-label_2="ID" data-mode="Current" data-theme="pure" data-basecolor="#75CBE8" data-textcolor="#000000" data-highcolor="#000000" data-lowcolor="#000000" data-suncolor="#000000" data-mooncolor="#000000" data-cloudcolor="#000000" data-cloudfill="#75CBE8" data-raincolor="#000000" data-snowcolor="#000000">PRESTON ID</a>
+          <p id="wind-speed"></p>
+          <p id="humidity"></p>
+          <p id="wind-chill"></p>
         </div>
       </div>
       <section id="five-day-forecast">
@@ -67,12 +74,12 @@
       </section>
       <section id="upcoming-events">
         <h2>Weekly Events</h2>
-        <img id="library-img-1" alt="Preston Library" src="/weather/images/preston/preston_library.JPG" />
+        <img id="library-img-1" alt="Preston Library" src="/weather/images/preston/preston_library.webp" />
         <h3>Story Time at the Library, City Library Saturdays at 10:30 AM</h3>
         <p>Bring your kids and enjoy a story at the local library. Two different groups are held, one recomended for ages 10 and younger, and the other for 11 and older.</p>
         <h3>Library Book Club, City Library Fridays at 7:30 PM</h3>
         <p>Recomended for those 16 and older, this group meets weekly at the library for discussing and reading a book!</p>
-        <img id="library-img-2" alt="Preston Library" src="/weather/images/preston/preston_library.JPG" />
+        <img id="library-img-2" alt="Preston Library" src="/weather/images/preston/preston_library.webp" />
         <h2>Major Events</h2>
         <h3>5/30/22 Memorial Day Event, City Park &#9733;</h3>
         <p>View an array a flags set up in remembrance of Memorial Day. Honor those who have served our country.</p>

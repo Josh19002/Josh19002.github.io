@@ -84,7 +84,7 @@ h4 {
 #menu-icon{
     font-size: 1.75rem;
 }
-@media (min-width: 43.5rem) {
+@media (min-width: 51.3rem) {
     .navbar ul{
         display: grid;
         grid-template-columns: repeat(6, auto);

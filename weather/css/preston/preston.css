@@ -2,9 +2,17 @@ main{
     text-align: center;
     background-color: #C4F0FF;
 }
-#hero-with-widget img{
+#hero-with-widget picture{
     max-width: 100%;
     margin-bottom: -4px;
+}
+#hero-widget p{
+    background-color: #75CBE8;
+    margin-top: -1px;
+    margin-bottom: 1px;
+    padding:.5rem;
+    text-align: center;
+    font-weight:600;
 }
 #city-name{
     text-align: center;
@@ -26,4 +34,7 @@ main h2{
 }
 #library-img-1{
     display: none;
+}
+.hero-img{
+    min-width:100%;
 }
