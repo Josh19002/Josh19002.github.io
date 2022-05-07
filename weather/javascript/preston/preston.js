@@ -1,3 +1,10 @@
+//Banner
+var cur_date = new Date()
+var weekday = cur_date.getDay()
+if (weekday != 5) {
+    document.getElementById("banner").style.display = "none"
+}
+//Weather Info
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://weatherwidget.io/js/widget.min.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","weatherwidget-io-js");
 async function getWeather() {
     let response = await fetch("https://api.openweathermap.org/data/2.5/weather?id=5604473&exclude=sys,timezone&units=imperial&appid=b0d07380ce5ea2770c47bb85b41d4544");

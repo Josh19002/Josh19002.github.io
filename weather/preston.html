@@ -30,6 +30,9 @@
     <!--End Favicons Section For All Platforms-->
   </head>
   <body>
+    <div id="banner">
+        <p>“Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.”</p>
+    </div>
     <header>
       <div id="site-logo">
         <img src="/weather/images/site-logo.png" alt="Site Logo" />
@@ -43,7 +46,7 @@
         <ul>
           <li id="menu-icon"><a href="#" onclick="togglemenu()">Menu &#9776;</a></li>
           <li><a href="/weather/index.html">Home</a></li>
-          <li><a href="/weather/preston.html">Preston</a></li>
+          <li><a id="current-page" href="/weather/preston.html">Preston</a></li>
           <li><a href="/weather/soda-springs.html">Soda Springs</a></li>
           <li><a href="/weather/fish-haven.html">Fish Haven</a></li>
           <li><a href="/weather/storm-center.html">Storm Center</a></li>
@@ -60,7 +63,7 @@
           <img class="hero-img" alt="Preston ID Overlook" src="/weather/images/preston/preston_overlook_small.webp"  />
         </picture>
         <div id="hero-widget">
-          <a class="weatherwidget-io" href="https://forecast7.com/en/42d10n111d88/preston/?unit=us" data-label_1="PRESTON" data-label_2="ID" data-mode="Current" data-theme="pure" data-basecolor="#75CBE8" data-textcolor="#000000" data-highcolor="#000000" data-lowcolor="#000000" data-suncolor="#000000" data-mooncolor="#000000" data-cloudcolor="#000000" data-cloudfill="#75CBE8" data-raincolor="#000000" data-snowcolor="#000000">PRESTON ID</a>
+          <a class="weatherwidget-io" href="https://forecast7.com/en/42d10n111d88/preston/?unit=us" data-label_1="PRESTON" data-label_2="ID" data-font="Roboto" data-mode="Current" data-days="5" data-theme="pure" data-basecolor="#75CBE8" data-textcolor="#000000" data-highcolor="#000000" data-lowcolor="#000000" data-suncolor="#000000" data-mooncolor="#000000" data-cloudcolor="#000000" data-cloudfill="#75CBE8" data-raincolor="#000000" data-snowcolor="#000000" >PRESTON ID</a>
           <p id="wind-speed"></p>
           <p id="humidity"></p>
           <p id="wind-chill"></p>
@@ -69,7 +72,7 @@
       <section id="five-day-forecast">
         <h2>5 Day Forecast</h2>
         <div id="forecast-widget">
-          <a class="weatherwidget-io" href="https://forecast7.com/en/42d10n111d88/preston/?unit=us" data-label_1="PRESTON" data-label_2="ID" data-mode="Forecast" data-theme="pure" data-basecolor="#75CBE8" data-textcolor="#000000" data-highcolor="#000000" data-lowcolor="#000000" data-suncolor="#000000" data-mooncolor="#000000" data-cloudcolor="#000000" data-cloudfill="#75CBE8" data-raincolor="#000000" data-snowcolor="#000000">PRESTON ID</a>
+          <a class="weatherwidget-io" href="https://forecast7.com/en/42d10n111d88/preston/?unit=us" data-label_1="PRESTON" data-label_2="ID" data-font="Roboto" data-mode="Forecast" data-days="5" data-theme="pure" data-basecolor="#75CBE8" data-textcolor="#000000" data-highcolor="#000000" data-lowcolor="#000000" data-suncolor="#000000" data-mooncolor="#000000" data-cloudcolor="#000000" data-cloudfill="#75CBE8" data-raincolor="#000000" data-snowcolor="#000000" >PRESTON ID</a>
         </div>
       </section>
       <section id="upcoming-events">
