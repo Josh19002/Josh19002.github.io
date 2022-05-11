@@ -4,6 +4,6 @@
         width:90%;
     }
     .hero-img{
-        min-width:100%;
+        max-width:100%;
     }
 }
