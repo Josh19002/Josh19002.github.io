@@ -37,6 +37,7 @@ main h2{
 }
 .hero-img{
     min-width:100%;
+    max-width:100%;
 }
 #banner{
     background-color: #4A4A4A;
