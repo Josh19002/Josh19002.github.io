@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Test Page for loading images dynamically" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/lazyload.css" />
+    <script defer src="javascript/lazyload.js"></script>
+    <title>Image Dynamic Load</title>
+  </head>
+  <body>
+    <main>
+      <h1>Lazy Loading Test</h1>
+      <picture><img class="placeholder-replace" src="images/placeholder.webp" data-src="images/365-300x400.jpg" alt="Picsum Image" /></picture>
+      <picture><img src="images/placeholder.webp" data-src="images/480-300x400.jpg" alt="Picsum Image" /></picture>
+      <picture><img src="images/placeholder.webp" data-src="images/486-300x400.jpg" alt="Picsum Image" /></picture>
+      <picture><img src="images/placeholder.webp" data-src="images/866-300x400.jpg" alt="Picsum Image" /></picture>
+      <picture><img src="images/placeholder.webp" data-src="images/911-300x400.jpg" alt="Picsum Image" /></picture>
+      <picture><img src="images/placeholder.webp" data-src="images/1015-300x400.jpg" alt="Picsum Image" /></picture>
+    </main>
+  </body>
+</html>

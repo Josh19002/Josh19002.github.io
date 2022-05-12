@@ -1,0 +1,21 @@
+main{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #87ceeb;
+}
+main img{
+    margin: 1rem auto;
+}
+main h1{
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+main img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+main img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
