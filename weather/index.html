@@ -8,8 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet" />
-    <link href="/weather/css/all-pages.css" rel="stylesheet">
+    <link href="/weather/css/all-pages.css" rel="stylesheet" />
+    <link href="/weather/css/home/home.css" rel="stylesheet" />
+    <link href="/weather/css/home/medium.css" rel="stylesheet" />
+    <link href="/weather/css/home/large.css" rel="stylesheet" />
     <script defer src="/weather/javascript/all-pages.js"></script>
+    <script defer src="/weather/javascript/home/home.js"></script>
     <title>WeatherEvents | Preston ID | Joshua Herman</title>
     <!--Begin Favicons Section For All Platforms-->
     <link rel="apple-touch-icon" sizes="180x180" href="/weather/images/favicons/apple-touch-icon.png" />
@@ -31,32 +35,73 @@
         <img src="/weather/images/site-logo.png" alt="Site Logo" />
       </div>
       <div id="site-name">
-          <h1>WeatherEvents</h1>
-          <p>Providing you with the latest on local weather!</p>
+        <h1>WeatherEvents</h1>
+        <p>Providing you with the latest on local weather!</p>
       </div>
-      <hr id="nav-seperation">
+      <hr id="nav-seperation" />
       <div class="navbar">
         <ul>
-            <li id="menu-icon"><a href="#" onclick="togglemenu()">Menu &#9776;</a></li>
-            <li><a id="current-page" href="/weather/index.html">Home</a></li>
-            <li><a href="/weather/preston.html">Preston</a></li>
-            <li><a href="/weather/soda-springs.html">Soda Springs</a></li>
-            <li><a href="/weather/fish-haven.html">Fish Haven</a></li>
-            <li><a href="/weather/stormcenter.html">Storm Center</a></li>
-            <li><a href="/weather/gallery-7.html">Gallery</a></li>
+          <li id="menu-icon"><a href="#" onclick="togglemenu()">Menu &#9776;</a></li>
+          <li><a id="current-page" href="/weather/index.html">Home</a></li>
+          <li><a href="/weather/preston.html">Preston</a></li>
+          <li><a href="/weather/soda-springs.html">Soda Springs</a></li>
+          <li><a href="/weather/fish-haven.html">Fish Haven</a></li>
+          <li><a href="/weather/stormcenter.html">Storm Center</a></li>
+          <li><a href="/weather/gallery-7.html">Gallery</a></li>
         </ul>
       </div>
     </header>
     <main>
-        
+      <section id="home-preston">
+        <a href="preston.html">
+          <div id="preston-content">
+            <h2 id="preston-name"></h2>
+            <h3 id="preston-slogan"></h3>
+            <p>Year Founded: <span id="preston-year"></span></p>
+            <p>Population: <span id="preston-pop"></span></p>
+            <p>Annual Rainfall: <span id="preston-rain"></span></p>
+          </div>
+          <div id="preston-picture">
+            <img id="preston-img" src="images/home/preston.webp" alt="" />
+          </div>
+        </a>
+      </section>
+      <section id="home-soda">
+        <a href="soda-springs.html">
+          <div id="soda-content">
+            <h2 id="soda-name"></h2>
+            <h3 id="soda-slogan"></h3>
+            <p>Year Founded: <span id="soda-year"></span></p>
+            <p>Population: <span id="soda-pop"></span></p>
+            <p>Annual Rainfall: <span id="soda-rain"></span></p>
+          </div>
+          <div id="soda-picture">
+            <img id="soda-img" src="images/home/soda-springs.webp" alt="" />
+          </div>
+        </a>
+      </section>
+      <section id="home-fish">
+        <a href="fish-haven.html">
+        <div id="fish-content">
+          <h2 id="fish-name"></h2>
+          <h3 id="fish-slogan"></h3>
+          <p>Year Founded: <span id="fish-year"></span></p>
+          <p>Population: <span id="fish-pop"></span></p>
+          <p>Annual Rainfall: <span id="fish-rain"></span></p>
+        </div>
+        <div id="fish-picture">
+          <img id="fish-img" src="images/home/fish-haven.webp" alt="" />
+        </div>
+        </a>
+      </section>
     </main>
     <footer>
-        <p class="copywrite_year">&copy;</p>
-        <p id="current_year" class="copywrite_year"></p>
-        <p class="copywrite_year">| Joshua M. Herman | West Jordan, UT | <a href="https://www.byui.edu/online/">BYUI Online</a></p>
-        <br />
-        <p class="current_date">Current Date:</p>
-        <p class="current_date" id="cur_date"></p>
+      <p class="copywrite_year">&copy;</p>
+      <p id="current_year" class="copywrite_year"></p>
+      <p class="copywrite_year">| Joshua M. Herman | West Jordan, UT | <a href="https://www.byui.edu/online/">BYUI Online</a></p>
+      <br />
+      <p class="current_date">Current Date:</p>
+      <p class="current_date" id="cur_date"></p>
     </footer>
   </body>
 </html>

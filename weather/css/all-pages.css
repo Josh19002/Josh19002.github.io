@@ -95,7 +95,7 @@ h4 {
     border-bottom: 4px solid #000000 ;
     border-top: 4px solid #000000 ;
 }
-@media (min-width: 51.3rem) {
+@media (min-width: 56.3rem) {
     .navbar ul{
         display: grid;
         grid-template-columns: repeat(6, auto);

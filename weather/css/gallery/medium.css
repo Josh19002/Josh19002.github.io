@@ -1,4 +1,4 @@
-@media (min-width: 51.3rem){
+@media (min-width: 56.3rem){
     #gallery-images{
         grid-template-columns: 1fr 1fr;
         column-gap: 2.5rem;
