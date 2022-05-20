@@ -53,7 +53,7 @@
       <form method="get" action="/weather/thanks.html">
         <fieldset>
           <legend>Your Information</legend>
-          <label class="top">*Full Name:<input type="text" name="name" required /></label>
+          <label class="top">*Full Name:<input type="text" name="name" minlength="5" required /></label>
           <label class="top">Email:<input type="email" name="email" placeholder="email@email.com" /></label>
           <label class="top">*Phone Number:<input type="tel" name="phone" required placeholder="1235556789" pattern="[0-9]{10,11}"/></label>
           <label class="top">*Zip Code:<input type="text" inputmode="numeric" pattern="[0-9]{5}" name="zip" required /></label>

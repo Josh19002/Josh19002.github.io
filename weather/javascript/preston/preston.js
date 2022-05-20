@@ -15,4 +15,21 @@ async function getWeather() {
     document.getElementById("wind-chill").innerText = "Wind Chill: " + Math.round(windchill) + "\u00B0 F"
 }
 getWeather()
-
+//Event Info
+const webJSON = "https://byui-cit230.github.io/weather/data/towndata.json"
+async function populateCityInfo(webJSON){
+    const response = await fetch(webJSON)
+    const townsJSON = await response.json()
+    const events = townsJSON.towns[6].events
+    let otherevents = document.createElement("div")
+    let othereventsheader = document.createElement("h2")
+    othereventsheader.textContent = "Other Events"
+    otherevents.appendChild(othereventsheader)
+    events.forEach(event => {
+        let eventelement = document.createElement("p")
+        eventelement.textContent = event
+        otherevents.appendChild(eventelement)
+    });
+    document.getElementById("upcoming-events").appendChild(otherevents)
+}
+populateCityInfo(webJSON)
