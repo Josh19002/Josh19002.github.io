@@ -18,7 +18,7 @@ async function getWeatherHero() {
     tempCurrentDiv.setAttribute("id", "tempWeather")
     let currentTemp = document.createElement("p")
     currentTemp.setAttribute("id", "current-temp")
-    currentTemp.textContent = data.main.temp+"\u00B0 F"
+    currentTemp.textContent = Math.round(data.main.temp)+"\u00B0 F"
     tempCurrentDiv.appendChild(currentTemp)
     let currentWeather = document.createElement("p")
     currentWeather.setAttribute("id", "current-weather")
