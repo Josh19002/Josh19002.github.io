@@ -1,0 +1,50 @@
+main{
+    text-align: center;
+    background-color: #C4F0FF;
+}
+#hero-with-widget picture{
+    max-width: 100%;
+    margin-bottom: -4px;
+}
+#hero-widget p{
+    background-color: #75CBE8;
+    margin-top: -1px;
+    margin-bottom: 1px;
+    padding:.5rem;
+    text-align: center;
+    font-weight:600;
+}
+#city-name{
+    text-align: center;
+    background-color: #75CBE8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:.25rem;
+}
+#contact-information{
+    background-color: #75CBE8;
+    padding: 1rem;
+}
+main h2{
+    border-top: 4px solid #000000;
+    border-bottom: 4px solid #000000 ;
+    max-width: fit-content;
+    padding: .5rem;
+    margin: 2rem auto;
+}
+#library-img-1{
+    display: none;
+}
+.hero-img{
+    min-width:100%;
+    max-width:100%;
+}
+#banner{
+    background-color: #4A4A4A;
+    color:#FFFFFF;
+    text-align: center;
+}
+.cc-notice{
+    font-size: .75rem;
+    font-weight: 500;
+}
