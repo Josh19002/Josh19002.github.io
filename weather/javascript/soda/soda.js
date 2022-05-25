@@ -41,7 +41,6 @@ async function getWeatherForecast (){
     data.list.forEach(forecast => {
        let date_time = forecast.dt_txt.split(" ")
        if (date_time[1] == "18:00:00"){
-        console.log(forecast)
         let weekdayLong = new Date(date_time[0].replace(/-/g, '\/').replace(/T.+/, '')).toLocaleString('en-us', {  weekday: "long"})
         let weekday = document.createElement("p")
         weekday.textContent = weekdayLong
