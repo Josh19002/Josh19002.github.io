@@ -102,4 +102,5 @@ form section{
     background-color: #77C2AF;
     border: 2px solid #000000;
     padding:1rem;
+    max-width: 20rem;
 }
