@@ -14,7 +14,7 @@ async function rentalCards(){
         img.setAttribute("src", `${rental.image}`)
         section.appendChild(img)
         let table = document.createElement("table")
-        table.innerHTML=`<tr><th>Capacity</th><th colspan="2">Reservations</th><th colspan="2">Walk-Ins</th></tr><tr><th></th><th>Half-Day</th><th>Full-Day</th><th>Half-Day</th><th>Full-Day</th></tr><tr><td>${rental.capacity}</td><td>$${rental.reservation.half}</td><td>$${rental.reservation.full}</td><td>$${rental.walk.half}</td><td>$${rental.walk.full}</td></tr>`
+        table.innerHTML=`<tr><th>Capacity</th><th colspan="2">Reservations</th><th colspan="2">Walk-Ins</th></tr><tr><th>&#8203;</th><th>Half-Day</th><th>Full-Day</th><th>Half-Day</th><th>Full-Day</th></tr><tr><td>${rental.capacity}</td><td>$${rental.reservation.half}</td><td>$${rental.reservation.full}</td><td>$${rental.walk.half}</td><td>$${rental.walk.full}</td></tr>`
         section.appendChild(table)
         let rentalDiv = document.createElement("div")
         rentalDiv.innerHTML = `<div><a href="reservations.html${rental.halfquery}">Reserve Half-Day</a></div><div><a href="reservations.html${rental.fullquery}">Reserve Full-Day</a></div>`
