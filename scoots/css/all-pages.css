@@ -154,6 +154,9 @@ footer a {
   color: #ffffff;
   grid-column: 4/5;
 }
+.fa-youtube span{
+    color: #000000;
+}
 #social-icons{
   display: grid;
   grid-template-columns: 1fr 90px 90px 90px 1fr;
