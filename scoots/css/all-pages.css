@@ -149,7 +149,7 @@ footer a {
 .fa-youtube {
   background: #FF0000;
   color: white;
-  grid-template-columns: 4/5;
+  grid-column: 4/5;
 }
 #social-icons{
   display: grid;
