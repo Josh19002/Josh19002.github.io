@@ -88,6 +88,10 @@ main h2{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     text-align: center;
     column-gap: .25rem;
+    width:100%;
+}
+#forecast5{
+    width:100%;
 }
 #forecast-city{
     margin-top: auto;
